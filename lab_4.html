@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Мій веб-сайт</title>
+    <style>
+      .header {
+        text-align: center;
+      }
+
+      .sidebar {
+        float: left;
+        width: 20%;
+      }
+
+      .content {
+        margin-left: 20%;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="" alt="Логотип Мого Веб-сайту">
+      <h1>Мій веб-сайт</h1>
+    </div>
+    
+    <div class="sidebar">
+      <h2>Навігація</h2>
+      <ul>
+        <li><a href="#list">Список</a></li>
+        <li><a href="#table">Таблиця</a></li>
+        <li><a href="#video">Відео</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2 id="list">Список:</h2>
+      <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+      </ul>
+
+      <h2 id="table">Таблиця:</h2>
+      <table border="1">
+        <tr>
+          <td>Назва</td>
+          <td>Ціна</td>
+        </tr>
+        <tr>
+          <td>Продукт 1</td>
+          <td>10$</td>
+        </tr>
+        <tr>
+          <td>Продукт 2</td>
+          <td>20$</td>
+        </tr>
+      </table>
+
+      <h2 id="video">Відео:</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lh9jfXcrN_g" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="footer">
+      <p>© 2023 Мій веб-сайт. Усі права захищені.</p>
+    </div>
+  </body>
+  <style>
+
+    /* Стилі для заголовків */
+    h1 {
+      color: blue;
+      font-size: 24px;
+    }
+  
+    h2 {
+      color: green;
+      font-size: 18px;
+    }
+  
+    /* Стилі для навігаційного бокового меню */
+    .sidebar {
+      background-color: lightgray;
+      padding: 10px;
+    }
+  
+    .sidebar h2 {
+      font-size: 16px;
+    }
+  
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .sidebar li {
+      margin-bottom: 5px;
+    }
+  
+    .sidebar a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    /* Стилі для змісту */
+    .content {
+      padding: 10px;
+    }
+  
+    /* Стилі для таблиці */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: lightgray;
+    }
+  
+    /* Стилі для підвалу */
+    .footer {
+      background-color: lightgray;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+     /* Стилі для навігаційного бокового меню */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sidebar li {
+    margin-bottom: 5px;
+  }
+
+  .sidebar a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+    background-color: lightgray;
+    transition: background-color 0.3s;
+  }
+
+  .sidebar a:hover {
+    background-color: gray;
+  }
+  </style>
+  
+</html>
